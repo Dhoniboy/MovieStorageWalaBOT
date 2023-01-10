@@ -164,7 +164,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie is not added to our database\n\nयह मूवी हमारे डेटाबेस में नहीं जोड़ी गई है\n  | Please admin को रिपोर्ट करें\n  | Request to @admin + Movie Name')
+            k = await query.message.edit('This Movie is not added to our database\n\nஇந்தத் திரைப்படம் எங்கள் தரவுத்தளத்தில் சேர்க்கப்படவில்லை\n  | Request to @admin + Movie Name')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -435,8 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MovieStorage_updates')
+            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://t.me/MM_MOVIESSS"),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MM_MOVIESSS')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ᴡᴀᴛᴄʜ⚡", url='https://t.me/howtodownload_moviestorage')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ ᴡᴀᴛᴄʜ⚡", url='https://t.me/how_to_downloadk/29')
         ]
     )
 
