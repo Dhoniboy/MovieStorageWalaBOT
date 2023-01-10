@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/MovieStorage_updates')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/MM_MOVIESSS')
             ],
             [
-                InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
+                InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://t.me/MM_MOVIESSS"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MovieStorage_updates')
+            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://t.me/MM_MOVIESSS"),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MM_MOVIESSS')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://telegram.me/moviestorage_official"),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MovieStorage_updates')
+            InlineKeyboardButton('⚡ Main ChanneL ⚡', url=f"https://t.me/MM_MOVIESSS"),
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/MM_MOVIESSS')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@moviestorage_official') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://t.me/MM_MOVIESSS') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
