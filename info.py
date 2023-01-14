@@ -82,7 +82,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/how_to_downloadk/29"
+DOWNLOAD_TEXT_URL = "https://t.me/how_to_down1/4"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
